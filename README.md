@@ -13,12 +13,12 @@ Phpjs is a framework to help you use PHP methods in javascript.
 First [download](https://www.github.com/hiagodotme/phpjs) the latest version of our repository.
 
 >Include file phpjs.min.js in your page.
-```sh
+```html
 <script src="dist/phpjs.min.js"></script>
 ```
 
 >Install the methods you want to use
-```sh
+```html
 <script>phpjs.setup(['$_GET','str_replace'])</script>
 ```
 
