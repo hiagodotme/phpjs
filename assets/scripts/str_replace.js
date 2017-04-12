@@ -1,3 +1,6 @@
+/**
+ * $_GET for phpjs
+ */
 function str_replace (search, replace, subject, countObj) {
   var i = 0
   var j = 0
