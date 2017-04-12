@@ -24,3 +24,5 @@ gulp.task('phpjs-scripts', function () {
 });
 
 gulp.task('compile',['phpjs-core', 'phpjs-scripts']);
+
+gulp.task('default', ['compile']);

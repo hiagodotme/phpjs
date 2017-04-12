@@ -1,6 +1,7 @@
 /**
  * $_GET for phpjs
  */
+"autocall";
 function $_GET() {
 	var parts = window.location.search.substr(1).split("&");
 	var $_GET = {};
